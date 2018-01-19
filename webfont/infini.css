@@ -1,0 +1,53 @@
+/*
+ Chargement de la fonte Infini
+
+ Le caractere Infini a ete cree par Sandrine Nugue 
+ dans le cadre d'une commande publique du Centre national 
+ des arts plastiques.
+
+ Source: http://cnap.graphismeenfrance.fr/infini/
+ Licence: licence Creative Commons CC BY-ND
+
+ woff2 created with https://everythingfonts.com/woff-to-woff2
+
+*/
+
+
+/* Romain */
+
+@font-face {
+  font-family: 'infini';
+  font-weight: 400;
+  font-style: normal;
+  src: url('infini-romain.woff2') format('woff2'),
+       url('infini-romain.woff') format('woff'),
+       url('infini-romain.ttf') format('truetype');
+}
+
+/* Gras */
+
+@font-face {
+  font-family: 'infini';
+  font-weight: 700;
+  font-style: normal;
+  src: url('infini-gras.woff2') format('woff2'),
+       url('infini-gras.woff') format('woff'),
+       url('infini-romain.ttf') format('truetype');
+}
+
+/* Italique */
+
+@font-face {
+  font-family: 'infini';
+  font-weight: 400;
+  font-style: italic;
+  src: url('infini-italique.woff2') format('woff2'),
+       url('infini-italique.woff') format('woff'),
+       url('infini-italique.ttf') format('truetype');
+}
+
+/* Application de la fonte */
+
+body {
+  font-family: 'infini', serif;
+}
