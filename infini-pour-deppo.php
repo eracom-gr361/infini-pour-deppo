@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Infini pour Deppo
-Plugin URI: https://github.com/eracom-gr361/infini-pour-deppo
+Plugin URI: https://github.com/eracom/infini-pour-deppo
 Description: charger la fonte Infini, et désactiver la fonte originale du thème Deppo.
 Version: 0.1
 Author: Manuel Schmalstieg
 Author URI: https://ms-studio.net
-GitHub Plugin URI: https://github.com/eracom-gr361/infini-pour-deppo
+GitHub Plugin URI: https://github.com/eracom/infini-pour-deppo
 */
  
-function load_infini_font( $query ) {
+function load_infini_font() {
 	
   // 1) Charger le style CSS pour Infini
 
