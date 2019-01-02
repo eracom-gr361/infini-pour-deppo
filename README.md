@@ -16,3 +16,5 @@ C'est ce que fait ce plugin, qui désactive la fonte par défaut du thème Deppo
 ***
 
 Cette extension a été développée dans le cadre du [cours Programmation Web](https://cours-web.ch/) à l'Eracom, Lausanne.
+
+Voir aussi: la [documentation du thème Deppo](https://cours-web.ch/theme-deppo/).
